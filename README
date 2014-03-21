@@ -1,0 +1,12 @@
+Builds a graph from the JSON input file, which denotes a user. Then iteratively computes top 3 "Most likely" friends who are friend's of friends.
+
+Tested on 10,000 fake users.
+
+
+
+Convert.py reads the original json input file and makes the integers strings, for java
+to use, since the integers were too big to fit into "int".
+
+I have run the code using sampledata.json file, with 10,000 nodes, and dumped the json output to output-top3.json file.
+
+The code defaults to reading inputs-large.json file and accepts the first argument as a filename if provided.
