@@ -1,6 +1,5 @@
 Builds a graph from the JSON input file, which denotes a user. Then iteratively computes top 3 "Most likely" friends who are friend's of friends.
 
-Tested on 10,000 fake users.
 
 
 
